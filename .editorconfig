@@ -177,7 +177,7 @@ csharp_space_between_square_brackets = false
 
 # Marshaller type must have CustomTypeMarshallerAttribute attribute
 dotnet_diagnostic.SYSLIB1056.severity = silent
-csharp_style_namespace_declarations = block_scoped:silent
+csharp_style_namespace_declarations = file-scoped:silent
 csharp_style_prefer_method_group_conversion = true:silent
 csharp_style_prefer_null_check_over_type_check = true:suggestion
 
