@@ -1,17 +1,7 @@
 $path = "../THIRD-PARTY-NOTICES.md"
-$gitIgnorePath = "../docs/.gitignore"
-$gitAttributesPath = "../docs/.gitattributes"
 
 if (Test-Path $path) {
     Remove-Item $path
-}
-
-if (Test-Path $gitIgnorePath) {
-    Remove-Item $gitIgnorePath
-}
-
-if (Test-Path $gitAttributesPath) {
-    Remove-Item $gitAttributesPath
 }
 
 function Get-LicensePath {
